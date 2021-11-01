@@ -1,14 +1,14 @@
 <div align="center">
-    <a href="https://pypi.org/project/discord-components"><img src="https://raw.githubusercontent.com/kiki7000/discord.py-components/master/.github/logo.png" alt="discord-components logo" height="128" style="border-radius: 50%"></a>
-    <h1>discord-components</h1>
+    <a href="https://pypi.org/project/py-cord-components"><img src="https://raw.githubusercontent.com/spacedev-official/py-cord-components/master/.github/logo.png" alt="discord-components logo" height="128" style="border-radius: 50%"></a>
+    <h1>pycord-components</h1>
 </div>
 <div align="center">
-        <a href="https://travis-ci.com/kiki7000/discord.py-components"><img src="https://travis-ci.com/kiki7000/discord.py-components.svg?branch=master" alt="Build Status"></a>
-        <a href="https://pypi.org/project/discord-components"><img src="https://badge.fury.io/py/discord-components.svg" alt="PyPI version"></a>
-        <a href="https://pypi.org/project/discord-components"><img src="https://img.shields.io/pypi/dm/discord-components" alt="PyPI downloads"></a>
+        <a href="https://travis-ci.com/spacedev-official/py-cord-components"><img src="https://travis-ci.com/spacedev-official/py-cord-components.svg?branch=master" alt="Build Status"></a>
+        <a href="https://pypi.org/project/py-cord-components"><img src="https://badge.fury.io/py/py-cord-components.svg" alt="PyPI version"></a>
+        <a href="https://pypi.org/project/py-cord-components"><img src="https://img.shields.io/pypi/dm/py-cord-components" alt="PyPI downloads"></a>
 </div>
 <p align="center">
-    <h3>An unofficial third party library of discord.py for discord components.</h3>
+    <h3>An unofficial third party library of py-cord for discord components.</h3>
 </p>
 
 ## Welcome!
@@ -37,13 +37,13 @@ if you have any questions, feel free to ask it on this server.
 ## Install
 
 ```
-pip install --upgrade discord-components
+pip install --upgrade py-cord-components
 ```
 
 ## Example
 
 You can see many examples
-[here](https://github.com/kiki7000/discord.py-components/tree/master/examples).
+[here](https://github.com/spacedev-official/py-cord-components/tree/master/examples).
 
 ## License
 
