@@ -19,13 +19,13 @@ buttons or selects!
 
 This project is open source ⭐.
 
-Also, there is an [official discord server](https://discord.gg/pKM6stqPxS), so
+Also, there is an [official discord server](https://discord.gg/294KSUxcz2), so
 if you have any questions, feel free to ask it on this server.
 
 ## Features
 
 - You can use message components and handle component interactions easily!
-- Third-party of discord.py.
+- Third-party of pycord.
 
 ## Docs
 
