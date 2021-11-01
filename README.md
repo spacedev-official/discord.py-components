@@ -31,8 +31,8 @@ if you have any questions, feel free to ask it on this server.
 
 - [Gitbook version](https://devkiki7000.gitbook.io/discord-components) (Up to
   date)
-- [Sphinx Version](https://discord-components.readthedocs.io/en/0.5.2.4)
-  (Currently outdated)
+- [Wiki Version](https://github.com/spacedev-official/py-cord-components/wiki)
+  (Up to date)
 
 ## Install
 
