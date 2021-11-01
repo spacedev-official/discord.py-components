@@ -1,6 +1,6 @@
 <div align="center">
-    <a href="https://pypi.org/project/py-cord-components"><img src="https://raw.githubusercontent.com/spacedev-official/py-cord-components/master/.github/logo.png" alt="discord-components logo" height="128" style="border-radius: 50%"></a>
-    <h1>pycord-components</h1>
+    <a href="https://pypi.org/project/py-cord-components"><img src="https://raw.githubusercontent.com/spacedev-official/py-cord-components/master/.github/logo.png" alt="py-cord-components logo" height="128" style="border-radius: 50%"></a>
+    <h1>py-cord-components</h1>
 </div>
 <div align="center">
         <a href="https://travis-ci.com/spacedev-official/py-cord-components"><img src="https://travis-ci.com/spacedev-official/py-cord-components.svg?branch=master" alt="Build Status"></a>
