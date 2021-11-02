@@ -1,7 +1,7 @@
 from discord import Message, Guild, TextChannel, User
 
-from discord_components.interaction import Interaction
-from discord_components.component import Component, Button, SelectOption
+from py_cord_components.interaction import Interaction
+from py_cord_components.component import Component, Button, SelectOption
 
 
 __all__ = (

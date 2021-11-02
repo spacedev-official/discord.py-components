@@ -1,4 +1,4 @@
-from discord_components import Button, Select, SelectOption, ComponentsBot
+from py_cord_components import Button, Select, SelectOption, ComponentsBot
 
 
 bot = ComponentsBot("!")
@@ -6,7 +6,7 @@ bot = ComponentsBot("!")
 or you can just override the methods yourself
 
 bot = discord.ext.commands.Bot("!")
-DiscordComponents(bot)
+PycordComponents(bot)
 """
 
 

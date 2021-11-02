@@ -35,11 +35,11 @@ class Interaction:
         self,
         *,
         state: ConnectionState,
-        client: "DiscordComponents",
+        client: "PycordComponents",
         raw_data: dict,
     ):
         self.state: ConnectionState = state
-        self.client: "DiscordComponents" = client
+        self.client: "PycordComponents" = client
 
         self.interaction_id: int = int(raw_data["id"])
         self.interaction_token: str = raw_data["token"]

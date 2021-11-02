@@ -10,11 +10,12 @@
 <p align="center">
     <h3>An unofficial third party library of py-cord for discord components.</h3>
 </p>
+<img src="https://app.travis-ci.com/spacedev-official/py-cord-components.svg?branch=master" alt="Travis CI Result">
 
 ## Welcome!
 
 Discord components are cool, but discord.py will support it on version 2.0. It
-is hard to wait, so we made a third-party library for using components such as
+is hard to recreate, so we made a third-party library for using components such as
 buttons or selects!
 
 This project is open source ⭐.
@@ -48,3 +49,9 @@ You can see many examples
 ## License
 
 This project is under the MIT License.
+
+## Repos using PycordComponents
+ * 
+
+## How-to use
+ * Every discordpy, discord,DiscordComponent mention should be changed to pycord, pycord, PycordComponent
