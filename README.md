@@ -10,7 +10,6 @@
 <p align="center">
     <h3>An unofficial third party library of py-cord for discord components.</h3>
 </p>
-<img src="https://app.travis-ci.com/spacedev-official/py-cord-components.svg?branch=master" alt="Travis CI Result">
 
 ## Welcome!
 
@@ -26,7 +25,7 @@ if you have any questions, feel free to ask it on this server.
 ## Features
 
 - You can use message components and handle component interactions easily!
-- Third-party of pycord.
+- Third-party of py-cord.
 
 ## Docs
 
@@ -54,4 +53,4 @@ This project is under the MIT License.
  * 
 
 ## How-to use
- * Every discordpy, discord,DiscordComponent mention should be changed to pycord, pycord, PycordComponent
+ * Every discordpy, discord, DiscordComponent, discord_components, discord-components mention should be changed to pycord, pycord, PycordComponent, py_cord_components, py-cord-components
