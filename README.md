@@ -53,4 +53,5 @@ This project is under the MIT License.
  * 
 
 ## How-to use
- * Every discord.py, discord, DiscordComponent, discord_components mention should be changed to py-cord, pycord, PycordComponent, py_cord_component
+ * Every discord.py, discord, DiscordComponent, discord_components mention should be changed to<br />
+ py-cord, pycord, PycordComponent, py_cord_component
