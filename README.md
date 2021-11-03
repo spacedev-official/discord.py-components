@@ -36,7 +36,11 @@ if you have any questions, feel free to ask it on this server.
 
 ## Install
 
-```
+```sh
+# GitHub (Develop)
+pip install --upgrade git+https://github.com/spacedev-official/py-cord-components.git
+
+# Pypi (Current)
 pip install --upgrade py-cord-components
 ```
 
