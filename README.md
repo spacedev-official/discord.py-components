@@ -3,9 +3,11 @@
     <h1>py-cord-components</h1>
 </div>
 <div align="center">
-        <a href="https://travis-ci.com/spacedev-official/py-cord-components"><img src="https://travis-ci.com/spacedev-official/py-cord-components.svg?branch=master" alt="Build Status"></a>
-        <a href="https://pypi.org/project/py-cord-components"><img src="https://badge.fury.io/py/py-cord-components.svg" alt="PyPI version"></a>
-        <a href="https://pypi.org/project/py-cord-components"><img src="https://img.shields.io/pypi/dm/py-cord-components" alt="PyPI downloads"></a>
+        <a href="https://www.codefactor.io/repository/github/spacedev-official/py-cord-components"><img src="https://www.codefactor.io/repository/github/spacedev-official/py-cord-components/badge" alt="CodeFactor" /></a>
+        <a href="https://discord.gg/294KSUxcz2"><img alt="Discord" src="https://img.shields.io/discord/847729860881154078?logo=discord&style=flat-square"></a>
+        <a href="https://pepy.tech/project/py-cord-components"><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/v/py-cord-components?style=flat-squareh"></a>
+        <a href="https://pypi.org/project/py-cord-components/"><img src="https://pepy.tech/badge/py-cord-components/month" /></a>
+        <a href=""><img src="https://img.shields.io/pypi/l/py-cord-components?style=flat-square" /></a>
 </div>
 <p align="center">
     <h3>An unofficial third party library of py-cord for discord components.</h3>
@@ -54,7 +56,7 @@ You can see many examples
 This project is under the MIT License.
 
 ## Repos using PycordComponents
- * 
+ * [PycordPaginator](https://pypi.org/project/PycordPaginator)
 
 ## How-to use
  * Every discord.py, discord, DiscordComponent, discord_components mention should be changed to<br />
