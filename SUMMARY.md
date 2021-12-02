@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Welcome!](README.md)
+
+## Guide
 * [Getting started](guide/getting-started.md)
 
 ## Reference
