@@ -3,7 +3,9 @@
 * [Welcome!](README.md)
 
 ## Guide
+
 * [Getting started](guide/getting-started.md)
+* [Frequently Asked Questions](guide/frequently-asked-questions.md)
 
 ## Reference
 

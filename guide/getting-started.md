@@ -12,11 +12,11 @@ We suggest you be familiar with `py-cord` and `python`. This is a `py-cord-compo
 
 First, we need to install the library:
 
-```
+```bash
 pip install --upgrade py-cord-components
 ```
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 If you meet an error `No matching distribution found for py-cord-components` when installing, try updating the python version! (It must be upper than `3.6`)
 {% endhint %}
 
@@ -24,7 +24,8 @@ If you meet an error `No matching distribution found for py-cord-components` whe
 
 Assuming you have invited your bot to some server, let's code. Create any python file and copy & paste the code below. (with replacing `your token` with your bot's token and `your prefix` with your bot's prefix)
 
-```
+{% code title="bot.py" %}
+```python
 from py_cord_components import PycordComponents, ComponentsBot, Button
 
 bot = ComponentsBot(command_prefix = "your prefix")
@@ -53,6 +54,7 @@ async def button(ctx):
 
 bot.run("your token")
 ```
+{% endcode %}
 
 ![Yay! A gray button](../.gitbook/assets/image.png)
 
@@ -62,7 +64,8 @@ You created a button! well done. Let's add a little clarification to the code.&#
 
 `Button(label = "WOW button!", custom_id = "button1")` this piece of code creates a button with the label "WOW button!" and sets the custom\_id to "button1".&#x20;
 
-```
+{% code title="bot.py" %}
+```python
 await ctx.send(
     "Hello, World!",
     components = [
@@ -70,6 +73,7 @@ await ctx.send(
     ]
 )
 ```
+{% endcode %}
 
 This code makes the bot send a message containing the button.
 
@@ -77,7 +81,8 @@ This code makes the bot send a message containing the button.
 
 &#x20; But when you click that button, you will meet the error `This interaction failed`. That's because you haven't responded to the `interaction (button click)`.  Let's edit the code.
 
-```
+{% code title="bot.py" %}
+```python
 from py_cord_components import PycordComponents, ComponentsBot, Button
 
 bot = ComponentsBot(command_prefix = "your prefix")
@@ -109,20 +114,23 @@ async def button(ctx):
 
 bot.run("your token")
 ```
+{% endcode %}
 
 ![Button clicked!](<../.gitbook/assets/image (1).png>)
 
 We just added two lines and poof! An ephemeral message (a message which only can be seen by you).&#x20;
 
-```
+```python
 await bot.wait_for("button_click", check = lambda i: i.custom_id == "button1")
 ```
 
 This method is the same as [`<discord.ext.commands.Bot>.wait_for`](https://discordpy.readthedocs.io/en/stable/ext/commands/api.html?highlight=wait\_for#discord.ext.commands.Bot.wait\_for). Except for the fact it returns [`Interaction`](broken-reference). This code waits until a user clicks the button with "button1" as a custom id. WOW!
 
+{% code title="bot.py" %}
 ```
 await interaction.send(content = "Button clicked!")
 ```
+{% endcode %}
 
 This response to the interaction. It sends an ephemeral message with the content "Button clicked!". You could just send a normal message by setting the ephemeral parameter `False`.
 
@@ -130,7 +138,8 @@ This response to the interaction. It sends an ephemeral message with the content
 
 Let's import some things and add a command!
 
-```
+{% code title="bot.py" %}
+```python
 from py_cord_components import PycordComponents, ComponentsBot, Button, Select, SelectOption
 
 bot = ComponentsBot(command_prefix = "your prefix")
@@ -181,6 +190,7 @@ async def select(ctx):
 
 bot.run("your token")
 ```
+{% endcode %}
 
 If you run this and type `!select`, you'll see a message with select! And if you select something, the bot will send an ephemeral message!
 
@@ -196,4 +206,4 @@ You send an ephemeral message to the user telling the option the user selected.
 
 You learned how to create a button and responding to an interaction..! Have an error or a question?&#x20;
 
-Look at the [Frequently Asked questions](broken-reference) or go to the [discord server](https://discord.gg/294KSUxcz2) and ask a question!
+Look at the [Frequently Asked questions](frequently-asked-questions.md) or go to the [discord server](https://discord.gg/294KSUxcz2) and ask a question!
