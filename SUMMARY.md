@@ -7,8 +7,13 @@
 * [Getting started](guide/getting-started.md)
 * [Frequently Asked Questions](guide/frequently-asked-questions.md)
 
-## Reference
+## API Reference
 
-* [API Reference](reference/api-reference/README.md)
-  * [Pets](reference/api-reference/pets.md)
-  * [Users](reference/api-reference/users.md)
+* [PycordComponents](api-reference/pycordcomponents.md)
+* [ComponentMessage](api-reference/componentmessage.md)
+* [Component](api-reference/component/README.md)
+  * [ActionRow](api-reference/component/pets.md)
+  * [Button](api-reference/component/button/README.md)
+    * [ButtonStyle](api-reference/component/button/buttonstyle.md)
+  * [Select](api-reference/component/select.md)
+  * [SelectOption](api-reference/component/selectoption.md)
