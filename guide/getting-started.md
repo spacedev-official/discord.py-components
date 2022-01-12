@@ -33,7 +33,7 @@ bot = ComponentsBot(command_prefix = "your prefix")
 or you can just override the methods yourself
 
 bot = discord.ext.commands.Bot("!")
-DiscordComponents(bot)
+PycordComponents(bot)
 """
 
 
@@ -90,7 +90,7 @@ bot = ComponentsBot(command_prefix = "your prefix")
 or you can just override the methods yourself
 
 bot = discord.ext.commands.Bot("!")
-DiscordComponents(bot)
+PycordComponents(bot)
 """
 
 
@@ -147,7 +147,7 @@ bot = ComponentsBot(command_prefix = "your prefix")
 or you can just override the methods yourself
 
 bot = discord.ext.commands.Bot("!")
-DiscordComponents(bot)
+PycordComponents(bot)
 """
 
 

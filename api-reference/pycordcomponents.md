@@ -1,6 +1,6 @@
 # PycordComponents
 
-## PycordComponents <a href="#discordcomponents" id="discordcomponents"></a>
+## PycordComponents
 
 Represents py\_cord\_components client.
 

@@ -8,7 +8,7 @@ Enum that contains button styles.
 | ------------------------------------------------------------------------------------------- |
 | <p><strong>Type:</strong> <code>int</code></p><p><strong>Value:</strong> <code>1</code></p> |
 
-| gray                                                                                                                                        |
+| <strong>gray</strong>                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p><strong>Type:</strong> <code>int</code></p><p><strong>Value:</strong> <code>2</code></p><p><strong>Alias:</strong> <code>grey</code></p> |
 
