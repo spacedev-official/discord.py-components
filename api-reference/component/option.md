@@ -54,6 +54,6 @@ Option on [Select](select.md).
 
 | from\_dict                                                                                                                                                                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Creates component instance from json.<br><br>This is a static method.</p><p></p><p><strong>Parameters:</strong></p><ul><li><strong>data</strong> (<code>dict</code>) - The json to construct button from.</li></ul><p><strong>Returns:</strong> <a href="selectoption.md"><code>py-cord-components.SelectOption</code></a><code></code></p> |
+| <p>Creates component instance from json.<br><br>This is a static method.</p><p></p><p><strong>Parameters:</strong></p><ul><li><strong>data</strong> (<code>dict</code>) - The json to construct button from.</li></ul><p><strong>Returns:</strong> <a href="option.md"><code>py-cord-components.SelectOption</code></a><code></code></p> |
 {% endtab %}
 {% endtabs %}

@@ -1,7 +1,7 @@
 # Select
 
 The select component.\
-**Extends:** [`py-cord-components.Component`](../componentmessage.md)``
+**Extends:** [`py-cord-components.Component`](../componentmessage.md)
 
 {% tabs %}
 {% tab title="Parameters" %}
